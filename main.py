@@ -5,7 +5,7 @@ def guess_the_number():
     secret_number = random.randint(lower_bound, upper_bound)
     print(f"Я загадал число от {lower_bound} до {upper_bound}. Попробуйте угадать!")
     attempts = 0
-
+#Создаем цикл
     while True:
         try:
             user_guess = int(input("Ваше число: "))
