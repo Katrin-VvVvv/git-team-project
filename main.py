@@ -1,4 +1,4 @@
-
+import random
 def guess_the_number():
     lower_bound = 1
     upper_bound = 100
